@@ -429,13 +429,14 @@ nav  .fa-xmark,.fa-bars{
 @media only screen and (max-width:600px){
     
     
-    nav i,h1{
-        font-size: 55px;
+   nav h1{
+        font-size: 25px;
     }
-    nav  .fa-xmark,.fa-bars{
-        display: block;
+    nav .fa-xmark, .fa-bars{
+        display: inline;
         font-size: 25px;
         margin-right: 25px;
+        color: #262626;
     }
     nav ul{
         background: #e6ad0f;
@@ -485,6 +486,10 @@ nav  .fa-xmark,.fa-bars{
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
+    }
+    .test-slide{
+        margin: 10px 0;
+        width: 100%;
     }
     .contact-left{
         flex-basis: 100%;
