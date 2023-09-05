@@ -27,6 +27,8 @@ body span{
     border-radius: 15px;
 }
 nav{
+     top: 0;left: 0;right: 0;
+    background-color: #262626;
     position: fixed;
     height:10%;
     width: 100%;
